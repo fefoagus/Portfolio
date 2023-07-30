@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilo.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Logo.png">
+    <meta name="description"
+        content="Utilizo este portafolio para validar mis estudios y las competencias desarrolladas (conocimientos, actitudes y habilidades) es único, ya que se desarrolla en base a mi experiencia y auto-reflexión.">
+    <meta name="keywords" content="portafolio, front-end, trabajo, freelance, boostrap, html, css">
+    <title>Inicio</title>
+</head>
+
+<body class="index">
+
+    <!--Video de fondo-->
+    <video src="img/fondo.mp4" onloadedmetada="this.muted=true" autoplay loop muted playsinline>
+    </video>
+
+    <header class="head">
+
+        <!--Menu estilo burger-->
+        <nav class="head__menu-burger">
+            <div class="head__menu-burger__blur">
+                <div class="head__menu-burger__blur__logo">
+                    <a href="index.html">
+                        <img src="img/Logo.png" alt="Logo Fede">
+                    </a>
+                </div>
+                <input id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                    <span class="menu1"></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li class="lista">
+                        <a class="menu__item" href="index.html">Inicio</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item" href="html/sobremi.html">Sobre MI</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item" href="html/conocimientos.html">Conocimientos</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item" href="html/experiencia.html">Experiencia</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item" href="html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Accesorios-->
+        <span class="head__acce pri"></span>
+        <span class="head__acce seg"></span>
+
+    </header>
+    <!-- Main-->
+    <main class="maini">
+        <div class="maini__bienvenido">
+            <div class="maini__bienvenido__marco">
+                <h1 class="maini__bienvenido__marco__hh">
+                    BIENVENIDOS!!!
+                </h1>
+            </div>
+            <div class="maini__perfil">
+                <img src="img/perfil.png" alt="Foto perfil fede">
+            </div>
+            <div class="maini__banner">
+                <div class="wrapper">
+                    <h2 class="type">Soy <br><span class="auto-type"></span></h2>
+                    <p class="maini__banner__p">Aquí conocerán mis destrezas, habilidades, conocimientos y proyectos.
+                    </p>
+                </div>
+            </div>
+
+
+
+    </main>
+
+
+
+    <!-- Boton-->
+    <a href="html/sobremi.html" class="button">
+        <button class="button__bn">
+            <span class="span">COMENZAR</span>
+        </button>
+    </a>
+
+
+
+
+
+    <!-- Pie de Pagina-->
+
+
+
+
+    <footer class="pie">
+        <p class="pie__p">Federico Martinez <br>
+
+            Web developer full stack <br>
+            Maldonado - Uruguay <br>
+            © Todos los derechos reservados - 2022</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Fede Martinez", "Desarrollador", "Programador", "Diseñador", "Ilustrador"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+
+</body>
+
+</html>

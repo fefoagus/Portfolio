@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/estilo.css">
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/Logo.png">
+    <meta name="description" content="En esta sección Sobre mí, hablo brevemente a que me dedico y un poco a lo que apunta mi visión, en las siguientes conocerás mis habilidades y conocimientos.">
+    <meta name="keywords" content="portafolio, front-end, trabajo, freelance, boostrap, html, css">
+    <title>Sobre Mi</title>
+</head>
+
+<body class="bodymi">
+
+    <!--Video de fondo-->
+    <video src="../img/fondo.mp4" onloadedmetada="this.muted=true" autoplay loop muted playsinline>
+    </video>
+
+
+    <header class="head">
+
+        <!--Menu estilo burger-->
+        <nav class="head__menu-burger">
+            <div class="head__menu-burger__blur">
+                <div class="head__menu-burger__blur__logo">
+                    <a href="../index.html">
+                        <img src="../img/Logo.png" alt="Logo Fede">
+                    </a>
+                </div>
+                <input id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                    <span class="menu1"></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li class="lista">
+                        <a class="menu__item s" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item s" href="sobremi.html">Sobre MI</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item s" href="conocimientos.html">Conocimientos</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item s" href="experiencia.html">Experiencia</a>
+                    </li>
+                    <li class="lista">
+                        <a class="menu__item s" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- Accesorios-->
+        <span class="head__acce pri mi"></span>
+        <span class="head__acce seg mi"></span>
+
+    </header>
+
+    <div class="sobremi">
+        <h1 class="sobremi__h">
+            SOBRE MI
+        </h1>
+    </div>
+
+
+
+
+    <!-- Main-->
+    <main class="mainmi">
+
+
+        <div class="mainmi__img">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active d-flex justify-content-center">
+                        <img src="../img/img/fede1.webp" class="d-block" alt="Foto de perfil Fede1">
+                    </div>
+                    <div class="carousel-item d-flex justify-content-center">
+                        <img src="../img/img/fede2.webp" class="d-block" alt="Foto de perfil Fede2">
+                    </div>
+                    <div class="carousel-item d-flex justify-content-center">
+                        <img src="../img/img/fede3.webp" class="d-block" alt="Foto de perfil Fede3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <div class="mainmi__p">
+            <p class="mainmi__p__p">
+                Estudiante avanzado en la carrera de Licenciatura en Diseño de Comunicación Visual y actualmente
+                formándome como Desarrollador Full-stack en Coderhouse.
+                Buscando nuevos desafíos que me ayudan a mejorar como profesional y sobre todo personalmente. <br>
+                Mi objetivo es formar parte de una empresa que me permita crecer en esos dos aspectos y aportar mi
+                conocimiento en un equipo que siempre este en búsqueda constante de superarse. <br>
+                Luego de terminar la actual carrera como Full-stack, continuare por aprender Diseño UI/UX, PHP, Python y
+                mucho más, combinando todo esto con mis conocimientos de diseño puedo aportar muchas ideas creativas y
+                resolver problemas.
+                Conozco lo que quiere el cliente ya que trabaje muchos años en venta personalizada y se como tratar con
+                los mismo ya sea para ganar nuevos o para resolver conflictos.
+
+            </p>
+        </div>
+    </main>
+
+    <a href="conocimientos.html" class="button__s">
+        <button class="button__bn s">
+            <span class="span">CONTINUAR</span>
+        </button>
+    </a>
+
+
+
+
+    <!-- Pie de pagina-->
+
+
+    <footer class="pie s">
+        <p class="pie__p">Federico Martinez <br>
+
+            Web developer full stack <br>
+            Maldonado - Uruguay <br>
+            © Todos los derechos reservados - 2022</p>
+    </footer>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
